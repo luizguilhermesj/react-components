@@ -1,0 +1,4 @@
+*.swp
+.yo-rc.json
+node_modules/
+dist/
