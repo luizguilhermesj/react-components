@@ -5,6 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@webpack-cli/init": "^0.1.0",
@@ -13,14 +14,17 @@
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.0",
+    "iconic-cl": "./iconic-cl/",
     "mini-css-extract-plugin": "^0.4.2",
     "node-sass": "^4.9.3",
+    "node-sass-import-once": "^1.2.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
+    "@iconic-cl": "file:./iconic-cl",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "prop-types": "^15.6.2",
